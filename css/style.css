@@ -81,3 +81,4 @@ footer{background:var(--c);color:#ffffffcc;padding:70px 0 26px;font-size:.93rem}
 .strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}.zg{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.md img{max-height:70vh;object-fit:contain}
 .white .tile{background:var(--iv)}.white .tile:hover{background:var(--o)}#order .chips{justify-content:center}
 @media(max-width:860px){.zg{grid-template-columns:repeat(2,1fr);gap:12px}}
+.brand{display:flex;flex-direction:column;line-height:1.1}.brand small{font:700 .62rem 'DM Sans',sans-serif;letter-spacing:.34em;color:var(--a);margin-bottom:4px}footer .brand{display:flex}
