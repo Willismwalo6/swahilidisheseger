@@ -85,3 +85,6 @@ footer{background:var(--c);color:#ffffffcc;padding:70px 0 26px;font-size:.93rem}
 .brand{font:600 .82rem 'DM Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;line-height:1.15}.brand small{font:700 1.65rem 'Playfair Display',serif;letter-spacing:.05em;color:#F07A35;margin-bottom:3px;text-shadow:0 2px 14px #0006}.brand b{color:var(--a)}footer .brand small{font-size:1.5rem}
 .tiles{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}.tile{padding:0;overflow:hidden}.tile .tim{aspect-ratio:4/3;overflow:hidden}.tile .tim img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--e)}.tile:hover .tim img{transform:scale(1.07)}.tile h3{padding:16px 12px 0}.tile p{padding:0 12px 20px}
 @media(max-width:860px){.brand small{font-size:1.35rem}.brand{font-size:.7rem}}@media(max-width:520px){.tiles{grid-template-columns:repeat(2,1fr);gap:12px}}
+.brand small{font-size:2.3rem;line-height:1;letter-spacing:.05em;margin-bottom:6px}.brand .sd{font:700 .95rem 'DM Sans',sans-serif;letter-spacing:.34em;text-transform:uppercase;color:var(--a);white-space:nowrap}footer .brand small{font-size:2rem}
+@media(max-width:860px){.brand small{font-size:1.85rem}.brand .sd{font-size:.8rem;letter-spacing:.28em}}
+@media(max-width:860px){.brand small{font-size:2rem;letter-spacing:.03em}.hd .btn.sm{padding:8px 14px;font-size:.82rem;min-height:40px}}
